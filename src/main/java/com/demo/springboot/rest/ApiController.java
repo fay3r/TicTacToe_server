@@ -39,13 +39,13 @@ public class ApiController {
     @PostMapping(value = "/set-field-by-user")
     public ResponseEntity usersMove(@RequestBody UserMoveDto userMoveDto) {
         board=action.usersMoveFunction(userMoveDto);
-        return new ResponseEntity(board,HttpStatus.OK);
+        return board == null ? new ResponseEntity(board,HttpStatus.BAD_REQUEST) : new ResponseEntity(board,HttpStatus.OK) ;
     }
 
     @CrossOrigin
     @PostMapping(value = "/set-field-by-ai")
     public ResponseEntity aiMove(@RequestBody AiMoveDto aiMoveDto) {
         board=action.aiMoveFunction(aiMoveDto);
-        return new ResponseEntity(board,HttpStatus.OK);
+        return board == null ? new ResponseEntity(board,HttpStatus.BAD_REQUEST) : new ResponseEntity(board,HttpStatus.OK) ;
     }
 }
