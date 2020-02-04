@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="221f4904-8876-4b30-882d-167c0f8079e4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/springboot/dto/AiMoveDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/springboot/dto/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/springboot/dto/UserMoveDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/springboot/rest/ApiController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/springboot/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/demo/springboot/service/impl/ServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/springboot/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/demo/springboot/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/demo/springboot/Application.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +20,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -34,7 +41,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1XLanM9zcQaGAFsh2BdrfNiblcZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -44,8 +53,11 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.company.java.com.demo.springboot.Application" />
       <module name="tic_tac_toe_server" />
@@ -56,11 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="tic_tac_toe_server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="main.java.com.demo.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="js.build_tools.grunt">
       <node-interpreter value="project" />
       <envs />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Spring Boot.Application" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
@@ -89,7 +112,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1580827994374</updated>
-      <workItem from="1580827995696" duration="863000" />
+      <workItem from="1580827995696" duration="1442000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1580828345214</created>
@@ -98,24 +121,55 @@
       <option name="project" value="LOCAL" />
       <updated>1580828345214</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="basic">
+      <created>1580828936935</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1580828936935</updated>
+    </task>
+    <task id="LOCAL-00003" summary="adding pom.xml">
+      <created>1580829013784</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1580829013784</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init project" />
-    <option name="LAST_COMMIT_MESSAGE" value="init project" />
+    <MESSAGE value="basic" />
+    <MESSAGE value="adding pom.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding pom.xml" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="887" y="164" key="CommitChangelistDialog2" timestamp="1580828991129">
+    <state x="72" y="183" key="#Project_Structure" timestamp="1580829017819">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="887" y="164" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580828991129" />
-    <state x="901" y="303" key="Vcs.Push.Dialog.v2" timestamp="1580828946375">
+    <state x="72" y="183" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1580829017819" />
+    <state x="887" y="164" key="CommitChangelistDialog2" timestamp="1580829012689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="901" y="303" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580828946375" />
+    <state x="887" y="164" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1580829012689" />
+    <state x="901" y="303" key="Vcs.Push.Dialog.v2" timestamp="1580829024563">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="901" y="303" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1580829024563" />
   </component>
 </project>
