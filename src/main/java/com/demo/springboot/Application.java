@@ -1,6 +1,6 @@
-package com.company;
+package main.java.com.demo.springboot;
 
-public class Main {
+public class Application {
 
     public static void main(String[] args) {
 	// write your code here
