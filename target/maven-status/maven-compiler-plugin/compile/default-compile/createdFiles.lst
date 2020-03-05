@@ -1,0 +1,7 @@
+com\demo\springboot\dto\AiMoveDto.class
+com\demo\springboot\service\TicTacToeService.class
+com\demo\springboot\service\impl\ServiceImpl.class
+com\demo\springboot\rest\ApiController.class
+com\demo\springboot\Application.class
+com\demo\springboot\dto\UserMoveDto.class
+com\demo\springboot\dto\Board.class
